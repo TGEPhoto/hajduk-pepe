@@ -1,0 +1,2 @@
+import discord
+bot = "NzQ5OTk4NTk3MDI5NzU2OTY4.X00Inw.e8inENeVWTQAQ5h0UuvIy2PVIyM"
