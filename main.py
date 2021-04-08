@@ -6,7 +6,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix=".", owner_ids=[611540017000480773])
 
-@bot_event
+@bot.event
 async def onready():
     await bot.change_presence(status=discord.Status.online, activity=discord.Game('koristi &help'))
     print('Bot je online')
